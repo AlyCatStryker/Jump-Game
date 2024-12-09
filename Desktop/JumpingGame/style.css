@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, #87CEFA, #FFFFFF); /* Light blue sky */
+  }
+  
+  canvas {
+    display: block;
+  }
+  
+  #score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 24px;
+    z-index: 1;
+  }  
